@@ -1,7 +1,7 @@
 import openai
 def main(DATA):
-    secret = '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'
-    openai.api_key = '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'
+    secret = ''
+    openai.api_key = ''
     response = openai.Image.create(
     prompt=DATA,
     n=1,
